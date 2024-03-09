@@ -1,7 +1,7 @@
 def test_1(): 
 	from math import pi 	
 	from pimotecarlo import montecarlopi 
-	xvalues=[1000,10000,100000,1000000]
+	xvalues=[10,100,1000,10000,100000,1000000]
 	for n in xvalues:
 		newmontecarlopi =montecarlopi(n)
 		pi_math=pi	
